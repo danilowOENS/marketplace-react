@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Input from "../Input";
-
 import "./Cadastro.scss";
 
 const Cadastro = () => {
@@ -12,6 +11,7 @@ const Cadastro = () => {
   const handleSubmit = e => {
     e.preventDefault();
   };
+
 
   return (
     <div className="Cadastro">
